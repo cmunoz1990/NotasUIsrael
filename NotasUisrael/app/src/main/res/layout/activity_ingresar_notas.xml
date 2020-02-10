@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresarNotas">
+
+    <TextView
+        android:id="@+id/txtdatosUsuarioNotas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="18dp"
+        android:background="#009688"
+        android:text="@string/txtdatosusuarioNotas"
+        android:textColor="#FDFAFA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txttituloNotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtseg1Notas"
+        android:layout_width="121dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/edtseg1Notas"
+        app:layout_constraintBottom_toTopOf="@+id/txtexa2Notas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtexa1Notas" />
+
+    <EditText
+        android:id="@+id/edtsup"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="63dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/edtsupNotas"
+        app:layout_constraintBottom_toTopOf="@+id/btnmenuNotas"
+        app:layout_constraintEnd_toStartOf="@+id/txttituloNotas"
+        app:layout_constraintStart_toStartOf="@+id/txtsup"
+        app:layout_constraintTop_toBottomOf="@+id/edtseg2Notas" />
+
+    <EditText
+        android:id="@+id/edtexa2Notas"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="142dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGuardarNotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtseg1Notas"
+        tools:text="@string/edtexa2Notas" />
+
+    <TextView
+        android:id="@+id/txtsup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/txtsupNotas"
+        app:layout_constraintBottom_toTopOf="@+id/edtsup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtexa2Notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="109dp"
+        android:text="@string/txtexa2Notas"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardarNotas"
+        app:layout_constraintStart_toStartOf="@+id/edtexa2Notas" />
+
+    <TextView
+        android:id="@+id/txtseg1Notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/txtseg1Notas"
+        app:layout_constraintBottom_toTopOf="@+id/edtseg1Notas"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtseg2Notas"
+        android:layout_width="126dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="144dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/edtseg2Notas"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGuardarNotas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edtexa1Notas" />
+
+    <EditText
+        android:id="@+id/edtexa1Notas"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/edtexa1Notas"
+        app:layout_constraintBottom_toTopOf="@+id/txtexa2Notas"
+        app:layout_constraintEnd_toEndOf="@+id/edtexa2Notas"
+        app:layout_constraintStart_toStartOf="@+id/txtexa1Notas"
+        app:layout_constraintTop_toTopOf="@+id/txtexa1Notas" />
+
+    <TextView
+        android:id="@+id/txtexa1Notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="122dp"
+        android:text="@string/txtexa1Notas"
+        app:layout_constraintBottom_toTopOf="@+id/txtexa2Notas"
+        app:layout_constraintEnd_toEndOf="@+id/txtexa2Notas"
+        app:layout_constraintStart_toStartOf="@+id/txtexa2Notas"
+        app:layout_constraintTop_toTopOf="@+id/spnSemestreNotas" />
+
+    <TextView
+        android:id="@+id/txtseg2Notas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="17dp"
+        android:text="@string/txtseg2Notas"
+        app:layout_constraintBottom_toTopOf="@+id/edtseg2Notas"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnGuardarNotas"
+        android:layout_width="0dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="166dp"
+        android:background="@drawable/guardar2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edtexa2Notas"
+        app:layout_constraintStart_toStartOf="@+id/edtexa2Notas" />
+
+    <TextView
+        android:id="@+id/txttituloNotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/txttituloNotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtobsNotas"
+        app:layout_constraintEnd_toStartOf="@+id/edtsup"
+        app:layout_constraintStart_toStartOf="@+id/edtsup"
+        app:layout_constraintTop_toBottomOf="@+id/edtsup" />
+
+    <Spinner
+        android:id="@+id/spnSemestreNotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttituloNotas" />
+
+    <Spinner
+        android:id="@+id/spnMateriaNotas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnSemestreNotas" />
+
+    <Button
+        android:id="@+id/btnmenuNotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="@string/btnmenuNotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGuardarNotas"
+        tools:text="@string/btnmenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

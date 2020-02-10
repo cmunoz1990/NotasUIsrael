@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <EditText
+        android:id="@+id/edtnombreregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:text="@string/edtnombreregistro"
+        app:layout_constraintEnd_toStartOf="@+id/btnfoto"
+        app:layout_constraintTop_toTopOf="@+id/btnfoto" />
+
+    <EditText
+        android:id="@+id/edtapellidoregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:text="@string/edtapellidoregistro"
+        app:layout_constraintEnd_toStartOf="@+id/btnfoto"
+        app:layout_constraintTop_toBottomOf="@+id/edtnombreregistro" />
+
+    <EditText
+        android:id="@+id/edtcorreoregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:text="@string/edtcorreoregistro"
+        app:layout_constraintStart_toStartOf="@+id/edtcarreraregistro"
+        app:layout_constraintTop_toBottomOf="@+id/edtcarreraregistro" />
+
+    <EditText
+        android:id="@+id/edtcarreraregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:ems="10"
+        android:hint="Carrera"
+        android:inputType="textPersonName"
+        android:text="@string/edtcarreraregistro"
+        app:layout_constraintEnd_toStartOf="@+id/btnfoto"
+        app:layout_constraintTop_toBottomOf="@+id/edtapellidoregistro" />
+
+    <EditText
+        android:id="@+id/edtpasswrod1registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:text="@string/edtpassword1registro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtcorreoregistro" />
+
+    <EditText
+        android:id="@+id/edtpassword2registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="ConfirmarPassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toStartOf="@+id/txtvalidarRegistro"
+        app:layout_constraintStart_toStartOf="@+id/txtvalidarRegistro"
+        app:layout_constraintTop_toBottomOf="@+id/edtpasswrod1registro"
+        tools:text="@string/edtpassword2registro" />
+
+    <ImageButton
+        android:id="@+id/btnfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camara" />
+
+    <ImageView
+        android:id="@+id/imvfoto"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/edtpasswrod1registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnfoto"
+        app:layout_constraintTop_toBottomOf="@+id/edtpasswrod1registro"
+        app:srcCompat="@drawable/previo" />
+
+    <Button
+        android:id="@+id/btnguardarregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/btnguardarregistro"
+        app:layout_constraintEnd_toStartOf="@+id/txtvalidarRegistro"
+        app:layout_constraintTop_toTopOf="@+id/txtvalidarRegistro" />
+
+    <TextView
+        android:id="@+id/txttituloregistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/txttituloregistro"
+        android:textColor="#121C6D"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnfoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnvalidarRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/btnvalidarRegistro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvalidarRegistro"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtvalidarRegistro"
+        android:layout_width="265dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/txtvalidarRegistro"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/edtCodigoValidacionRegistro"
+        app:layout_constraintEnd_toStartOf="@+id/imvfoto"
+        app:layout_constraintStart_toStartOf="@+id/imvfoto"
+        app:layout_constraintTop_toTopOf="@+id/edtpassword2registro" />
+
+    <EditText
+        android:id="@+id/edtCodigoValidacionRegistro"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="117dp"
+        android:ems="10"
+        android:hint="Código"
+        android:inputType="textPersonName"
+        android:text="@string/edtCodigoValidacionRegistro"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtvalidarRegistro"
+        app:layout_constraintStart_toEndOf="@+id/btnvalidarRegistro"
+        app:layout_constraintTop_toBottomOf="@+id/imvfoto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

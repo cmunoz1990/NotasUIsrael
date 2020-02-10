@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">NotasUisrael</string>
+    //INICIO DE SESIÓN
+    <string name="edtcorreoSesion"></string>
+    <string name="edtpasswordSesion"></string>
+    <string name="btnregistrarseSesion">Registrarse</string>
+    <string name="btnrecuperarSesion">Recuperar Sesión</string>
+    //RECUPERAR SESION
+    <string name="edtcorreoRecuperar"></string>
+    <string name="btnenviarRecuperar">Enviar</string>
+    //REGISTRO DE USUARIO
+    <string name="txttituloregistro">REGISTRO DE USUARIO</string>
+    <string name="edtnombreregistro"></string>
+    <string name="edtapellidoregistro"></string>
+    <string name="edtcarreraregistro"></string>
+    <string name="edtcorreoregistro"></string>
+    <string name="edtpassword1registro"></string>
+    <string name="edtpassword2registro"></string>
+    <string name="btnguardarregistro">GUARDAR</string>
+    <string name="btnvalidarRegistro">Validar Registro</string>
+    <string name="txtvalidarRegistro">Consulte su código de registro en su email</string>
+    <string name="edtCodigoValidacionRegistro"></string>
+    //MENU
+    <string name="btnnuevoSemestreMenu">Nuevo Semestre</string>
+    <string name="btnnuevaMateriaMenu">Nueva Materia</string>
+    <string name="btnnuevaNotaMenu">Nueva Nota</string>
+    <string name="txttitulomenu">MENÚ PRINCIPAL</string>
+    <string name="txtusuariomenu"></string>
+    <string name="btnmenu">MENÚ</string>
+    //NUEVO SEMESTRE
+    <string name="edtnombreSemestre">SEMESTRE</string>
+    <string name="btnguardarSemestre"></string>
+    <string name="txtdatosUsuarioSemestre"></string>
+    <string name="txttituloSemestre">SELECCIONE UN SEMESTRE </string>
+
+    //NUEVA MATERIA
+    <string name="btnguardarMateria"></string>
+    <string name="txtdatosUsuarioMateria"></string>
+    <string name="txttituloMateria">SELECCIONE UN SEMESTRE </string>
+    <string name="edtmateriaNueva"></string>
+    //INGRESO NOTAS
+    <string name="txtdatosusuarioNotas"></string>
+    <string name="txttituloNotas">INGRESE LAS NOTAS</string>
+    <string name="txtseg1Notas">Segui. 1</string>
+    <string name="txtexa1Notas">Examen 1</string>
+    <string name="txtseg2Notas">Segui. 2</string>
+    <string name="txtexa2Notas">Examen 2</string>
+    <string name="txtsupNotas">Supletorios</string>
+    <string name="txtobsNotas"></string>
+    <string name="edtseg1Notas"></string>
+    <string name="edtexa1Notas"></string>
+    <string name="edtseg2Notas"></string>
+    <string name="edtexa2Notas"></string>
+    <string name="edtsupNotas"></string>
+    <string name="btnGuardarNotas"></string>
+    <string name="btnmenuNotas">MENÚ</string>
+
+
+</resources>

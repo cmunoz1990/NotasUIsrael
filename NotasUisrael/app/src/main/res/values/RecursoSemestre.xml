@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_semestre">
+        <item>Seleccione Semestre</item>
+        <item>Primer Semestre</item>
+        <item>Segundo Semestre</item>
+        <item>Tercero Semestre</item>
+        <item>Cuarto Semestre</item>
+        <item>Quinto Semestre</item>
+        <item>Sexto Semestre</item>
+        <item>Septimo Semestre</item>
+        <item>Octavo Semestre</item>
+        <item>Noveno Semestre</item>
+        <item>Décimo Semestre</item>
+    </string-array>
+</resources>
